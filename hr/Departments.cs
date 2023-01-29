@@ -30,7 +30,7 @@ namespace HRProject
 
         public static void Remove(int i)
         {
-            AllDepartments.Remove(AllDepartments[i]);
+            AllDepartments.Remove(AllDepartments[i-1]);
         }
 
         public static void ShowAll()
